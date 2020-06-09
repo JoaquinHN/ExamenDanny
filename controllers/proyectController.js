@@ -1,5 +1,5 @@
 exports.home=(req,res,next)=>{
-    res.render("Hola mundo")
+    res.render("calculadora")
 };
 exports.calculadora =(req,res,next) =>{
     console.log(req,body)
