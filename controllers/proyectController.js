@@ -1,3 +1,3 @@
 home=(req,res,next)=>{
-    res.send("Hola mundo")
+    res.r("Hola mundo")
 };
