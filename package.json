@@ -7,7 +7,7 @@
     "dev": "nodemon ./index.js",
     "start": "node ./index.js"
   },
-  "keywords": [],
+  "keywords": ["examen","negocios web","metodo frances"],
   "author": "Danny Joaquin Rosa Cantarero",
   "license": "ISC",
   "dependencies": {
