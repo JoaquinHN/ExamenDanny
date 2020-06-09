@@ -3,6 +3,8 @@ const routes = express.Router();
 //Importar controlador
 const proyecto = require("../controllers/proyectController")
 //Cargar las paginas
-routes.get('/',(req,res)=>{
-    res.send('Hello World')
-});
+module.exports = function(){
+    routes.get("/",proyecto.home);
+    routes.post("/calculadora",proyecto.calculadora);
+    return routes;
+}

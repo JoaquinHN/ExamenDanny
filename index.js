@@ -19,7 +19,11 @@ app.engine(
 );
 app.set("view engine", "hbs");
 
-// app.use("/", routes());
+
+ 
+app.use(bodyparser.urlencoded({ extended: true }));
+
+//De donde saca las rutas
 app.use("/", routes());
 // Inicializar el servidor en un puerto en específico
 app.listen(2000, () => {
